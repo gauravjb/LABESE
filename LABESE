@@ -1,0 +1,27 @@
+Difference between RPM and Debian:
+
+1) Each RPM has a 'spec' file , detailing what version of the application its going to install and what other smaller applications will need to be installed in order for it to function.
+   The DEB file too is dependent on a 'control file' which is much like the 'spec' file of an RPM package, as it defines what software needs to be installed in order for your target application to run, provides description of what you are going to install. 
+   
+2) RPM based distributions, generally use the Redhat Package Management system.
+   Debian based distributions, generally use the YUM Package Management system.
+   
+3) YUM checks for updates unless asked for not to.
+   Debian requires manual updation.
+   
+4) RPM Enterprise Linux is commercial.
+   Debian Pakage Linux is not commercial.
+   
+Package management tools:
+
+1) APT (Advanced Packaging Tool):
+	It is a very popular, free, powerful and more so, useful command line package management system that is a front end for dpkg package management system. Users of Debian or its derivatives such as Ubuntu and Linux Mint should be familiar with this package management tool.
+	
+2) Aptitude Package Manager:
+	This is also a popular command line front-end package management tool for Debian Linux family, it works similar to APT and there have been a lot of comparisons between the two, but above all, testing out both can make you understand which one actually works better.
+	
+3) YUM (Yellowdog Updater Modified):
+	It is an open source and popular command line package manager that works as a interface for users to RPM. You can compare it to APT under Debian Linux systems, it incorporates the common functionalities that APT has.
+	
+4) DNF – Dandified Yum:
+	It is also a package manager for the RPM-based distributions, introduced in Fedora 18 and it is the next generation of version of YUM. If you have been using Fedora 22 onwards, you must have realized that it is the default package manager.	
